@@ -1,0 +1,20 @@
+[project]
+name = "hangman-web"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "prograsshopper",email = "tjalwled12@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask (==2.3.2)",
+    "flask-httpauth (==4.5.0)",
+    "flask-login (==0.6.2)",
+    "flask-sqlalchemy (==3.0.3)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
